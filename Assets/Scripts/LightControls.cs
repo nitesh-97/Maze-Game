@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+
+// This Script is no longer in use
 public class LightControls : MonoBehaviour
 {
     public GameObject RoomLight;

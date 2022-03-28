@@ -27,4 +27,20 @@ public class GameEvent : MonoBehaviour
             onDoorTriggerExit(ID);
         }
     }
+    public event Action<int> onRoomTriggerEnter;
+    public void RoomTriggerEnter(int ID)
+    {
+        if (onRoomTriggerEnter != null)
+        {
+            onRoomTriggerEnter(ID);
+        }
+    }
+    public event Action<int> onRoomTriggerExit;
+    public void RoomTriggerExit(int ID)
+    {
+        if (onRoomTriggerExit != null)
+        {
+            onRoomTriggerExit(ID);
+        }
+    }
 }

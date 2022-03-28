@@ -258,7 +258,7 @@ Transform:
   - {fileID: 1016600611}
   - {fileID: 1250150588}
   m_Father: {fileID: 1834140365}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &145538428
 GameObject:
@@ -456,13 +456,14 @@ GameObject:
   m_Component:
   - component: {fileID: 249283028}
   - component: {fileID: 249283027}
+  - component: {fileID: 249283029}
   m_Layer: 0
   m_Name: Spot Light 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &249283027
 Light:
   m_ObjectHideFlags: 0
@@ -470,7 +471,7 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 249283026}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
@@ -538,6 +539,19 @@ Transform:
   m_Father: {fileID: 1353560321}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &249283029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 249283026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f0004aed254aff428e78c0a3e1f25fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 5
 --- !u!1 &262860404
 GameObject:
   m_ObjectHideFlags: 0
@@ -651,7 +665,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 3
 --- !u!65 &349873593
 BoxCollider:
@@ -770,10 +784,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 401159897}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0ade9105f1cea04188a93d51be1e4e9, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a4a8d6d069e01542a511cea011995a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RoomLight: {fileID: 557696254}
+  ID: 0
   RoomText: {fileID: 1007995319}
   RoomNo: 2
 --- !u!65 &401159900
@@ -1105,12 +1119,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 474300191}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0ade9105f1cea04188a93d51be1e4e9, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a4a8d6d069e01542a511cea011995a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RoomLight: {fileID: 1219485203}
+  ID: 2
   RoomText: {fileID: 1007995319}
-  RoomNo: 4
+  RoomNo: 6
 --- !u!65 &474300194
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1181,13 +1195,14 @@ GameObject:
   m_Component:
   - component: {fileID: 557696256}
   - component: {fileID: 557696255}
+  - component: {fileID: 557696257}
   m_Layer: 0
   m_Name: Spot Light 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &557696255
 Light:
   m_ObjectHideFlags: 0
@@ -1195,7 +1210,7 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 557696254}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
@@ -1263,6 +1278,19 @@ Transform:
   m_Father: {fileID: 727316298}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &557696257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 557696254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f0004aed254aff428e78c0a3e1f25fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 0
 --- !u!1 &649058342
 GameObject:
   m_ObjectHideFlags: 0
@@ -1458,13 +1486,14 @@ GameObject:
   m_Component:
   - component: {fileID: 708800057}
   - component: {fileID: 708800056}
+  - component: {fileID: 708800058}
   m_Layer: 0
   m_Name: Spot Light 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &708800056
 Light:
   m_ObjectHideFlags: 0
@@ -1472,7 +1501,7 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 708800055}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
@@ -1540,6 +1569,19 @@ Transform:
   m_Father: {fileID: 1323791844}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &708800058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 708800055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f0004aed254aff428e78c0a3e1f25fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 4
 --- !u!1 &727316297
 GameObject:
   m_ObjectHideFlags: 0
@@ -1550,7 +1592,7 @@ GameObject:
   m_Component:
   - component: {fileID: 727316298}
   m_Layer: 0
-  m_Name: Room1
+  m_Name: Room1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1570,7 +1612,7 @@ Transform:
   - {fileID: 557696256}
   - {fileID: 401159898}
   m_Father: {fileID: 1834140365}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &733776802
 GameObject:
@@ -2084,12 +2126,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 923837518}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0ade9105f1cea04188a93d51be1e4e9, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a4a8d6d069e01542a511cea011995a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RoomLight: {fileID: 708800055}
+  ID: 1
   RoomText: {fileID: 1007995319}
-  RoomNo: 6
+  RoomNo: 4
 --- !u!65 &923837521
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2352,7 +2394,7 @@ GameObject:
   - component: {fileID: 1007995320}
   - component: {fileID: 1007995319}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Room No
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2592,13 +2634,14 @@ GameObject:
   m_Component:
   - component: {fileID: 1016600611}
   - component: {fileID: 1016600610}
+  - component: {fileID: 1016600612}
   m_Layer: 0
   m_Name: Spot Light 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &1016600610
 Light:
   m_ObjectHideFlags: 0
@@ -2606,7 +2649,7 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1016600609}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
@@ -2674,6 +2717,19 @@ Transform:
   m_Father: {fileID: 109511563}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &1016600612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1016600609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f0004aed254aff428e78c0a3e1f25fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 1
 --- !u!1 &1027986858
 GameObject:
   m_ObjectHideFlags: 0
@@ -3016,13 +3072,14 @@ GameObject:
   m_Component:
   - component: {fileID: 1219485205}
   - component: {fileID: 1219485204}
+  - component: {fileID: 1219485206}
   m_Layer: 0
   m_Name: Spot Light 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &1219485204
 Light:
   m_ObjectHideFlags: 0
@@ -3030,7 +3087,7 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1219485203}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
@@ -3098,6 +3155,19 @@ Transform:
   m_Father: {fileID: 1381816553}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &1219485206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1219485203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f0004aed254aff428e78c0a3e1f25fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 2
 --- !u!1 &1250150587
 GameObject:
   m_ObjectHideFlags: 0
@@ -3141,10 +3211,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1250150587}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0ade9105f1cea04188a93d51be1e4e9, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a4a8d6d069e01542a511cea011995a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RoomLight: {fileID: 1016600609}
+  ID: 1
   RoomText: {fileID: 1007995319}
   RoomNo: 1
 --- !u!65 &1250150590
@@ -3250,10 +3320,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1255614472}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0ade9105f1cea04188a93d51be1e4e9, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a4a8d6d069e01542a511cea011995a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RoomLight: {fileID: 2134002538}
+  ID: 1
   RoomText: {fileID: 1007995319}
   RoomNo: 5
 --- !u!65 &1255614475
@@ -3346,7 +3416,7 @@ Transform:
   - {fileID: 708800057}
   - {fileID: 923837519}
   m_Father: {fileID: 1834140365}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1353560320
 GameObject:
@@ -3358,7 +3428,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1353560321}
   m_Layer: 0
-  m_Name: Room1 (5)
+  m_Name: Room1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3378,7 +3448,7 @@ Transform:
   - {fileID: 249283028}
   - {fileID: 2116484792}
   m_Father: {fileID: 1834140365}
-  m_RootOrder: 5
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1355759431
 GameObject:
@@ -3627,7 +3697,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1381816553}
   m_Layer: 0
-  m_Name: Room1 (2)
+  m_Name: Room1 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3647,7 +3717,7 @@ Transform:
   - {fileID: 1219485205}
   - {fileID: 474300192}
   m_Father: {fileID: 1834140365}
-  m_RootOrder: 2
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1451602177
 GameObject:
@@ -3659,7 +3729,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1451602178}
   m_Layer: 0
-  m_Name: Room1 (3)
+  m_Name: Room1 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3679,7 +3749,7 @@ Transform:
   - {fileID: 2134002540}
   - {fileID: 1255614473}
   m_Father: {fileID: 1834140365}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1569068392
 GameObject:
@@ -4120,12 +4190,12 @@ Transform:
   m_LocalPosition: {x: 7.4391155, y: 6.2703433, z: -18.133284}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 727316298}
   - {fileID: 109511563}
-  - {fileID: 1381816553}
-  - {fileID: 1451602178}
-  - {fileID: 1323791844}
+  - {fileID: 727316298}
   - {fileID: 1353560321}
+  - {fileID: 1323791844}
+  - {fileID: 1451602178}
+  - {fileID: 1381816553}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4805,10 +4875,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2116484791}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0ade9105f1cea04188a93d51be1e4e9, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a4a8d6d069e01542a511cea011995a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RoomLight: {fileID: 249283026}
+  ID: 5
   RoomText: {fileID: 1007995319}
   RoomNo: 3
 --- !u!65 &2116484794
@@ -4881,13 +4951,14 @@ GameObject:
   m_Component:
   - component: {fileID: 2134002540}
   - component: {fileID: 2134002539}
+  - component: {fileID: 2134002541}
   m_Layer: 0
   m_Name: Spot Light 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &2134002539
 Light:
   m_ObjectHideFlags: 0
@@ -4895,7 +4966,7 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2134002538}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
@@ -4963,3 +5034,16 @@ Transform:
   m_Father: {fileID: 1451602178}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &2134002541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2134002538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f0004aed254aff428e78c0a3e1f25fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 3
